@@ -1,11 +1,12 @@
 from selenium import webdriver
 from fixture.session import Session
 from fixture.project import ProjectHelper
+from fixture.james import JamesHelper
 from selenium.webdriver.common.by import By
 
 class Application:
 
-    def __init__(self, browser, base_url):
+    def __init__(self, browser, configur):
         if browser == "firefox":
             self.wd = webdriver.Firefox()
         elif browser == "ie":
@@ -16,8 +17,10 @@ class Application:
             raise ValueError("Unrecognized browser %s" % browser)
         self.wd.implicitly_wait(1)
         self.session = Session(self)
-        self.base_url = base_url
+        self.base_url = configur['web']['baseUrl']
+        self.configur = configur
         self.project = ProjectHelper(self)
+        self.james = JamesHelper(self)
 
     def is_valid(self):
         try:
