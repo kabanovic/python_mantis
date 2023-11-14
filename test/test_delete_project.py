@@ -3,7 +3,7 @@ import random
 
 
 def test_add_project(app):
-    app.session.login("administrator", "root")
+    #app.session.login("administrator", "root")
     if len(app.project.get_project_list()) == 0:
         app.project.add_project(Project(name="Project1"))
     old_projects = app.project.get_project_list()

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cae6c5de-be85-436c-afaa-66ada6509edf" name="Changes" comment="удаление проекта">
+    <list default="true" id="cae6c5de-be85-436c-afaa-66ada6509edf" name="Changes" comment="получение почты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config_inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target.json" beforeDir="false" afterPath="$PROJECT_DIR$/target.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_delete_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_delete_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_signup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests in test_signup.py">
+  <component name="RunManager" selected="Python tests.Python tests in test_add_project.py">
     <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_mantis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,10 +133,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_add_project.py" />
         <item itemvalue="Python tests.Python tests in test_signup.py" />
         <item itemvalue="Python tests.Python tests in test_login.py" />
         <item itemvalue="Python tests.Python tests in test_delete_project.py" />
-        <item itemvalue="Python tests.Python tests in test_add_project.py" />
         <item itemvalue="Python.project" />
       </list>
     </recent_temporary>
@@ -173,14 +174,32 @@
       <option name="project" value="LOCAL" />
       <updated>1699955164640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="создание пользователей">
+      <option name="closed" value="true" />
+      <created>1699981944153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699981944153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="получение почты">
+      <option name="closed" value="true" />
+      <created>1699985117004</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699985117004</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="начало" />
     <MESSAGE value="добавление проекта" />
     <MESSAGE value="удаление проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="удаление проекта" />
+    <MESSAGE value="создание пользователей" />
+    <MESSAGE value="получение почты" />
+    <option name="LAST_COMMIT_MESSAGE" value="получение почты" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
