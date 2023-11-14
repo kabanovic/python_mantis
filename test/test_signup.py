@@ -9,6 +9,10 @@ def random_username(prefix, maxlen):
 
 def test_signup(app):
     username = random_username("user_", 5)
+    email = username + "@localhost"
     password = "test"
     app.james.ensure_user_exists(username, password)
-    app.
+    app.signup.new_user(username, email, password)
+    app.session.login(username, password)
+    assert app.session.is_logged_in_as(username)
+    app.session.logout()
