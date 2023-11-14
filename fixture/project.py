@@ -15,6 +15,15 @@ class ProjectHelper:
         self.return_main()
         self.project_cache = None
 
+    def del_project(self, project):
+        wd = self.app.wd
+        self.open_projects()
+        wd.find_element(By.LINK_TEXT, "%s" % project).click()
+        wd.find_element(By.XPATH, "//input[@value='Delete Project']").click()
+        wd.find_element(By.XPATH, "//input[@value='Delete Project']").click()
+        self.return_main()
+        self.project_cache = None
+
     def open_projects(self):
         wd = self.app.wd
         wd.find_element(By.LINK_TEXT, 'Manage').click()
