@@ -1,5 +1,6 @@
 from selenium import webdriver
 from fixture.session import Session
+from fixture.project import ProjectHelper
 from selenium.webdriver.common.by import By
 
 class Application:
@@ -16,6 +17,7 @@ class Application:
         self.wd.implicitly_wait(1)
         self.session = Session(self)
         self.base_url = base_url
+        self.project = ProjectHelper(self)
 
     def is_valid(self):
         try:
