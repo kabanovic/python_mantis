@@ -9,7 +9,7 @@ class Project:
         return "%s" % (self.name)
 
     def __eq__(self, other):
-        return self.name == other.name
+        return self.name == other
 
     def name_or_not(self):
         return self.name

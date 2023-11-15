@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cae6c5de-be85-436c-afaa-66ada6509edf" name="Changes" comment="получение почты">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+    <list default="true" id="cae6c5de-be85-436c-afaa-66ada6509edf" name="Changes" comment="работа с soap">
+      <change beforePath="$PROJECT_DIR$/fixture/soap.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/soap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_delete_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_delete_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_signup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,9 +132,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_add_project.py" />
+        <item itemvalue="Python tests.Python tests in test_delete_project.py" />
         <item itemvalue="Python tests.Python tests in test_signup.py" />
         <item itemvalue="Python tests.Python tests in test_login.py" />
-        <item itemvalue="Python tests.Python tests in test_delete_project.py" />
         <item itemvalue="Python.project" />
       </list>
     </recent_temporary>
@@ -190,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699985117004</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="работа с soap">
+      <option name="closed" value="true" />
+      <created>1699988458887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699988458887</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +205,8 @@
     <MESSAGE value="удаление проекта" />
     <MESSAGE value="создание пользователей" />
     <MESSAGE value="получение почты" />
-    <option name="LAST_COMMIT_MESSAGE" value="получение почты" />
+    <MESSAGE value="работа с soap" />
+    <option name="LAST_COMMIT_MESSAGE" value="работа с soap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
